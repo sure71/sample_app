@@ -7,6 +7,7 @@ gem 'pg', '0.18.4'
 gem 'bootstrap-sass', '~> 3.3.6'
 #gem 'sass-rails', '>= 3.2'
 gem 'sprockets', '3.5.2'
+gem 'bcrypt-ruby'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
