@@ -4,13 +4,16 @@ ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 gem 'pg', '0.18.4'
+gem 'bootstrap-sass', '~> 3.3.6'
+#gem 'sass-rails', '>= 3.2'
+gem 'sprockets', '3.5.2'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 #  gem 'sqlite3'
   gem 'rspec-rails', '~> 3.0'
 #   gem 'rspec-rails'
-   gem 'guard-rspec', '4.6.4'
+#   gem 'guard-rspec', '4.6.4'
 end
 
 group :test do
@@ -64,4 +67,4 @@ end
 
 gem 'test-unit'
 #gem 'minitest'
-
+gem 'rb-readline'
